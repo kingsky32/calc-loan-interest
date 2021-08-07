@@ -1,5 +1,5 @@
 {
-  "name": "calc_loan_interest",
+  "name": "calc-loan-interest",
   "version": "1.0.3",
   "description": "Calc Loan Interest",
   "jest": {
