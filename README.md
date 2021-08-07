@@ -3,11 +3,11 @@
 ## 사용법
 
 ```bash
-npm install calc_loan_interest --save
+npm install calc-loan-interest --save
 ```
 
 ```js
-import calcLoanInterest from 'calc_loan_interest';
+import calcLoanInterest from 'calc-loan-interest';
 
 calcLoanInterest(
   0, // method: 상환방법 (0: 원리금 균등 상환, 1: 원금 균등 상환);
