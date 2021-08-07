@@ -48,7 +48,7 @@ const calcLoanInterest = (
     loanMoney, // 대출 원금
     rates, // 이자율
     loansDate, // 대출 기간
-    period, // 거치 기간
+    period: period ?? 0, // 거치 기간
     monthly: [], // 월 상환
     totalInterest: undefined, // 총대출이자
     totalRepay: undefined, // 총상환금액

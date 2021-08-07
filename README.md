@@ -18,17 +18,18 @@ calcLoanInterest(
 
 ```json
 {
-  "method": "원리금 균등 상환",
-  "loanMoney": 300000000,
-  "rates": 0.03,
-  "loansDate": 24,
-  "monthly": [
+  "method": "원리금 균등 상환", // 상환방법
+  "loanMoney": 300000000, // 원금
+  "rates": 0.03, // 이자율
+  "loansDate": 24, // 납입기간(월)
+  "period": 0, // 거치기간(월)
+  "monthly": [ // 월 상환
     {
-      "round": 1,
-      "payment": 12144363.593867082,
-      "interest": 750000,
-      "repayment": 12894363.593867082,
-      "balance": 287855636.40613294
+      "round": 1, // 회차
+      "payment": 12144363.593867082, // 납입원금
+      "interest": 750000, // 대출 이자
+      "repayment": 12894363.593867082, // 월상환금
+      "balance": 287855636.40613294 // 대출잔금
     },
     {
       "round": 2,
@@ -46,8 +47,8 @@ calcLoanInterest(
       "balance": 0
     }
   ],
-  "totalInterest": 9464726.252803795,
-  "totalRepay": 309464726.25281
+  "totalInterest": 9464726.252803795, // 총대출이자
+  "totalRepay": 309464726.25281 // 총상환금액
 }
 ```
 
