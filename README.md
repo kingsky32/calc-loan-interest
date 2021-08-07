@@ -2,6 +2,10 @@
 
 ## 사용법
 
+```bash
+npm install calc_loan_interest --save
+```
+
 ```js
 import calcLoanInterest from 'calc_loan_interest';
 
