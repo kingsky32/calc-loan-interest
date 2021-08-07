@@ -19,15 +19,20 @@
       }
     }
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": "https://github.com/kingsky32/calc_loan_interest",
-  "author": "Seung Ju",
+  "author": {
+    "name": "Seung Ju",
+    "email": "kingsky32@gmail.com",
+    "url": "https://seung-ju.com"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kingsky32/calc_loan_interest/issues"
+    "url": "https://github.com/kingsky32/calc_loan_interest/issues",
+    "email": "kingsky32@gmail.com"
   },
   "homepage": "https://github.com/kingsky32/calc_loan_interest#readme",
   "devDependencies": {
