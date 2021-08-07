@@ -3,6 +3,8 @@
 ## 사용법
 
 ```js
+import calcLoanInterest from 'calc_loan_interest';
+
 calcLoanInterest(
   0, // method: 상환방법 (0: 원리금 균등 상환, 1: 원금 균등 상환);
   300000000, // loanMoney: 원금
