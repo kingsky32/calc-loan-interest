@@ -1,0 +1,48 @@
+{
+  "name": "calc_loan_interest",
+  "version": "1.0.0",
+  "description": "Calc Loan Interest",
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "globals": {
+      "ts-jest": {
+        "diagnostics": true
+      }
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/kingsky32/calc_loan_interest",
+  "author": "Seung Ju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsky32/calc_loan_interest/issues"
+  },
+  "homepage": "https://github.com/kingsky32/calc_loan_interest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
