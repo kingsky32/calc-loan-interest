@@ -1,6 +1,6 @@
 {
   "name": "calc_loan_interest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calc Loan Interest",
   "jest": {
     "transform": {
